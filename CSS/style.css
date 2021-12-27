@@ -105,6 +105,9 @@ ul{
     #s1 .container a{
         font-size: 35px;
         }
+    #s1 .container a P.do_type{
+            line-height: 30px;
+        }
     #s1 .box{
             position: relative;
             transition: 1s;
@@ -135,6 +138,9 @@ ul{
     #s1 .container a{
         font-size: 20px;
         text-align: left;
+    }
+    #s1 .container a P.do_type{
+        line-height: 30px;
     }
     #s1 .box{
         position: relative;
