@@ -111,7 +111,7 @@ ul{
     #s1 .box{
             position: relative;
             transition: 1s;
-            padding: 4em 4em;
+            padding: 8em 4em;
             transform: 1s;
             /* border: 1px solid red; */
             width: 600px;
@@ -145,7 +145,7 @@ ul{
     #s1 .box{
         position: relative;
         transition: 1s;
-        padding: 2em 2em;
+        padding: 6em 2em;
         transform: 1s;
         /* border: 1px solid red; */
         width: 320px;
