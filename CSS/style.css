@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -27,7 +28,7 @@ ul{
 
 #s1 .container a{
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -103,10 +104,10 @@ ul{
   @media screen and (max-width:1024px) {
    
     #s1 .container a{
-        font-size: 35px;
+        font-size: 30px;
         }
     #s1 .container a P.do_type{
-            line-height: 55px;
+            line-height: 45px;
         }
     #s1 .box{
             position: relative;

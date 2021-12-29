@@ -10,20 +10,188 @@
      <!--fancybox JQuery-->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
      <!--css-->
-     <link rel="stylesheet" href="./CSS/style.css">
-     <link rel="stylesheet" href="./css/mobile.css" 
+     <link rel="stylesheet" href="./CSS/sub.css">
+     <link rel="stylesheet" href="./CSS/mobile.css" 
     media="screen and (max-width: 767px)">
      <!--JS-->
-     <script src="./js/do_type.js"></script>
-     <script src="./js/do_type.min.js"></script>
+     <script src="./JS/do_type.js"></script>
+     <script src="./JS/do_type.min.js"></script>
+     <script src="./JS/main.js"></script>
       <!--font-->
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
       <!--icon-->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+      <!-- font awesome animation -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.min.css">
+      <!--AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--swiper css-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!--swiper js-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--fancybox JS-->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+     <!-- 이미지 로드 채크 플러그인 -->
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <!--이미지 필터 JS-->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!--pie-chart JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script> 
 </head>
 <body id="main">
-
+  <!--<div id="icon-loding"><i class="fa fa-spinner fa-spin fa-2x"></i></div>-->
+  <!-- 이미지가 로딩되는 영역 -->    
+  <!--<section id="content"></section>section_content end-->
+    <header id="mainheader">
+      <div class="header-container">
+        <button id="toggle">
+          <img src="./images/Icon feather-menu.svg" alt="menu">
+        </button>
+        <h1 class="logo"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></h1>
+        <nav class="gnb">
+          <div class="close-menu">
+            <button class="btn-close">
+              <img src="./images/Icon material-close.svg" alt="close">
+            </button>
+          </div><!--close-menu-->
+          <ul class="depth1">
+            <li class="d1"><a href="./main.html">home</a></li>
+            <li class="d1"><a href="#s1">about</a></li>
+            <li class="d1"><a href="#s2">work</a></li>
+            <li class="d1"><a href="#s3">design</a></li>
+            <li class="d1"><a href="https://drive.google.com/file/d/1blz68HnqlHNgd6INzLEO-FTMNNO6ED76/view?usp=sharing" target="_blank">portfolio</a></li>
+          </ul>
+        </nav><!--gnb-->
+      </div><!--div.container-->
+    </header>
+   
+    <section id="main">
+     
+    <video id="bg" autoplay loop src="./images/video (2).mp4"></video>
     
+    <div class="main-visual">
+      <div class="title">
+        <a href="./main.html"><i class="fa fa-music" aria-hidden="true"></i></a>
+        <p class="sub-title">Web Publisher</p>
+        <h1 class="main-title">PORTFOLIO</h1>
+        <audio id="player" src="./Free Corporate Background Music.mp3"></audio>
+        <div class="bgm">
+          <button onclick="document.getElementById('player').volume += 0.1"><i class="fa fa-plus" aria-hidden="true"></i></button>
+          <button onclick="document.getElementById('player').play()"><i class="fa fa-play bgm" aria-hidden="true" ></i></button>
+          <button onclick="document.getElementById('player').pause()"><i class="fa fa-stop" aria-hidden="true"></i></button>
+          <button onclick="document.getElementById('player').volume -= 0.1"><i class="fa fa-minus" aria-hidden="true"></i></button>
+          
+        </div><!--bgm-->
+        <div class="scroll">
+          <h1 class="scroll-group">
+          <i class="fa fa-angle-double-down faa-bounce animated" aria-hidden="true"> <img src="./images/Icon material-mouse.png" alt=""></i>
+        </h1>
+        </div><!--scroll-->
+      </div><!--title-->
+    </div><!--main-visual-->
+    
+    </section><!--main-->
+   
+    <section id="s1">
+     
+      <div class="container">
+        <div class="section-title">
+        <h2 class="main-title">about</h2>
+        <p class="border">✱</p>
+        </div><!--section-title-->
+          <h3 class="profile-title">profile</h3>
+            <div class="profile">
+              <div class="col">
+                <img src="./images/Icon ionic-md-person-add.png" alt="">
+                  <p>1998.01.22</p>
+                  <p>이은서(Lee Eun Seo)</p>
+              </div><!--col-->
+              <div class="col">
+                <a href="tel:+82)010-2526-5140">
+                <img src="./images/Icon awesome-phone-alt.png" alt="">
+                  <p><strong>phone</strong></p>
+                  <p> 010-2526-5140</p>
+                </a>
+              </div><!--col-->
+              <div class="col">
+                <a href="mailto:dmstj3156@naver.com">
+                <img src="./images/Icon zocial-email.png" alt="">
+                  <p><strong>e-mail</strong></p>
+                  <p> dmstj3156@naver.com</p>
+                </a>
+              </div><!--col-->
+            </div><!--profile--> 
+          <h3 class="skill-title">skills & tools</h3>
+            <div class="skill">
+              <ul id="chart">
+                <li><div class="chart1" data-percent="85"><span>HTML</span></div></li>
+                <li><div class="chart2" data-percent="80"><span>CSS</span></div></li>
+                <li><div class="chart3" data-percent="65"><span>JavaScript</span></div></li>
+                <li><div class="chart4" data-percent="65"><span>JQuery</span></div></li>
+              </ul>
+            </div><!--skill-->
+            <div class="tools">
+              <div class="tools-col">
+                <img src="./images/skill-photoshop.png" alt="">
+                  <p>Photoshop</p>   
+              </div><!--col1-->
+              <div class="tools-col">
+                <img src="./images/tools-illustrator.png" alt="">
+                  <p>Illuatrator</p>   
+              </div><!--col1-->
+              <div class="tools-col">
+                <img src="./images/skill-photoshop.png" alt="">
+                  <p>Adobe XD</p>   
+              </div><!--col1-->
+              <div class="tools-col">
+                <img src="./images/skill-photoshop.png" alt="">
+                  <p>VS code</p>   
+              </div><!--col1-->
+              <div class="tools-col">
+                <img src="./images/skill-photoshop.png" alt="">
+                  <p>Github</p>   
+              </div><!--col1-->
+            </div><!--tools-->
+          
+      </div><!--container-->
+      <div class="banner">
+        <div class="banner-container">
+        <p class="explain">
+          <strong> "tire<ins>les</ins>s, daunt<ins>les</ins>s, bound<ins>les</ins>s" <br></strong>
+          안녕하세요. 신입 웹퍼블리셔 이은서입니다. 사회복지과를 전공한 덕분에 사회의 다양한 문제들에 대해 접할 수 있었고, <br>
+           이는 웹퍼블리싱에 대해 관심을 가지고 새로운 시작을 하게 해 준 계기가 되어주었습니다. <br> UI/UX를 고려해 웹접근성을 높혀 다양한 사람들이
+           보다 더 많은 정보들을 쉽게 접할 수 있도록 전문성을 갖추기 위해 계속해서 노력해 나가고 있습니다. <br>
+           새로운 것을 배우고 도전해나가는 것에 지치지 않고 두려워하지 않는, 무한한 가능성을 가진 웹퍼블리셔가 되는 것이 저의 목표입니다.
+        </p>
+      </div><!--container-->
+      </div>
+    </section>
+
+    <section id="s2">
+     
+      <div class="container">
+        <div class="section-title">
+        <h2 class="main-title">work</h2>
+        <p class="border">✱</p>
+          
+        
+        </div><!--section-title-->
+      </div><!--container-->
+    </section>
+
+    <section id="s3">
+     
+      <div class="container">
+        <div class="section-title">
+        <h2 class="main-title">design</h2>
+        <p class="border">✱</p>
+          
+        
+        </div><!--section-title-->
+      </div><!--container-->
+    </section>
+    <!--<a href="#main"><i class="fa fa-arrow-up fa-3x" aria-hidden="true"></i></a>-->
 </body>
 </html>
